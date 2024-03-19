@@ -1,3 +1,5 @@
+# O(n) time | O(1) space
+
 def validSequence(array, sequence):
     arrIdx = 0
     seqIdx = 0
