@@ -13,6 +13,5 @@ def threeNumberSum(array, targetSum):
     return []
 
 
-
 if __name__ == "__main__":
-    print(threeNumberSum(array=[5, 3, 8, 11, -7, 2, -9, 10, 7], targetSum=10)
+    print(threeNumberSum(array=[5, 3, 8, 11, -7, 2, -9, 10, 7], targetSum=10))
