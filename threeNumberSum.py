@@ -1,6 +1,4 @@
-
 # O(n^2) time | O(1) space
-
 
 def threeNumberSum(array, targetSum):
     for i in range(len(array) - 1):
