@@ -22,6 +22,6 @@ def updateScores(scores, team, point):
 
 
 if __name__ == "__main__":
-    competitions = [["Ghana", "Nigeria"], ["Nigeria", "Zimbabwe"], ["Ghana", "Zimbabwe"]]
-    results = [1, 0, 1]
+    competitions = [["Ghana", "Nigeria"], ["Nigeria", "Zimbabwe"], ["Zimbabwe", "Ghana"]]
+    results = [1, 0, 0]
     print(tournamentWinner(competitions, results))
